@@ -1,0 +1,24 @@
+{
+  "name": "examenbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Controller/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./Controller/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soxzen/examenbackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soxzen/examenbackend/issues"
+  },
+  "homepage": "https://github.com/Soxzen/examenbackend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

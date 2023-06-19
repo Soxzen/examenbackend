@@ -1,0 +1,8 @@
+- [X]Réaliser une API de blague(liste en annexe p2) avec 3 endpoints
+- [X]route pour consulter toutes les blagues
+- [X]route pour consulter une blague par id 
+- [X]route pour onsulter une blague au hasard
+- [X] environnement Node, Express & fichier JSON (jeu de données qui émulent les data)
+- [X]mise en ligne sur render.com
+- La partie FRONT era hébergé sur GitHub Pages
+- BONUS : SWAGGER pour l'API & approche pattern MVC.
