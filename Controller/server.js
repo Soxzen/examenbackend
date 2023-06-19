@@ -7,10 +7,10 @@ app.get('/jokes/random', (req, res) => {
   const randomJoke = getRandomJoke();
   res.json(randomJoke);
 });
-app.get('api/jokes', (req, res) => {
+app.get('/api/jokes', (req, res) => {
   res.json(jokes);
 });
-app.get('api/jokes/:id', (req, res) => {
+app.get('/api/jokes/:id', (req, res) => {
   const jokeId = parseInt(req.params.id);
   const joke = jokes.find(j => j.id === jokeId);
   if (joke) {
