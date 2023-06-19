@@ -3,7 +3,7 @@ const app = express();
 
 const jokes = require("../Model/data");
 
-app.get('api/jokes/random', (req, res) => {
+app.get('/jokes/random', (req, res) => {
   const randomJoke = getRandomJoke();
   res.json(randomJoke);
 });
