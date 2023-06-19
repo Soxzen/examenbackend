@@ -7,7 +7,7 @@ app.get('/jokes/random', (req, res) => {
   const randomJoke = getRandomJoke();
   res.json(randomJoke);
 });
-app.get('/api/laugh', (req, res) => {
+app.get('/laugh', (req, res) => {
   res.json(jokes);
 });
 app.get('/api/jokes/:id', (req, res) => {
